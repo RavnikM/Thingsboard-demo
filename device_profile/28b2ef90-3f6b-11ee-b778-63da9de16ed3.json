@@ -1,0 +1,40 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "Default device profile",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "28b2ef90-3f6b-11ee-b778-63da9de16ed3"
+    },
+    "image" : null,
+    "name" : "Android",
+    "profileData" : {
+      "alarms" : null,
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

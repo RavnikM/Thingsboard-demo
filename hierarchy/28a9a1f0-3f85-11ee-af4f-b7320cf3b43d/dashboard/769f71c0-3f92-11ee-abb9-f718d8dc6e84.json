@@ -391,22 +391,22 @@
             "main" : {
               "widgets" : {
                 "1f42176b-72ab-9211-7a08-802f47fbe331" : {
-                  "sizeX" : 15,
-                  "sizeY" : 9,
+                  "sizeX" : 14,
+                  "sizeY" : 12,
                   "row" : 0,
                   "col" : 0
                 },
                 "e7f23a18-fbc3-f963-a04f-64a72a197c63" : {
-                  "sizeX" : 5,
-                  "sizeY" : 3,
+                  "sizeX" : 10,
+                  "sizeY" : 4,
                   "row" : 0,
-                  "col" : 15
+                  "col" : 14
                 },
                 "939b37e5-f0fa-2d31-02b8-e43884bfb29c" : {
-                  "sizeX" : 8,
-                  "sizeY" : 5,
-                  "row" : 9,
-                  "col" : 0
+                  "sizeX" : 10,
+                  "sizeY" : 8,
+                  "row" : 4,
+                  "col" : 14
                 }
               },
               "gridSettings" : {

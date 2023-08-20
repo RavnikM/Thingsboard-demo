@@ -151,7 +151,7 @@
               "removeOutsideVisibleBounds" : true,
               "useIconCreateFunction" : false
             },
-            "title" : "New OpenStreetMap",
+            "title" : "Zemljevid",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -161,7 +161,13 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "widgetStyle" : { },
-            "actions" : { }
+            "actions" : { },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "enableDataExport" : true,
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,

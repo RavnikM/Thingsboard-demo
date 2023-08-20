@@ -1,0 +1,62 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "metadata" : { },
+      "baseUrl" : "https://thingsboard.cloud",
+      "httpEndpoint" : "https://thingsboard.cloud/api/v1/integrations/http/8b6a2112-6ea1-ef14-2e37-559ca20364d1",
+      "enableSecurity" : false,
+      "headersFilter" : { },
+      "replaceNoContentToOk" : false
+    },
+    "debugMode" : false,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "7ee14d20-3f67-11ee-9b11-37540c770a8a"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "7efdfce0-3f67-11ee-af4f-b7320cf3b43d"
+    },
+    "name" : "Android Sensors-Integration",
+    "remote" : false,
+    "routingKey" : "8b6a2112-6ea1-ef14-2e37-559ca20364d1",
+    "secret" : "g58wke1fo5v465ce5lw5",
+    "type" : "HTTP"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-0",
+      "lastUpdateTs" : 1692544945273,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-1",
+      "lastUpdateTs" : 1692544945269,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_tb-ie-main-2",
+      "lastUpdateTs" : 1692544945277,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

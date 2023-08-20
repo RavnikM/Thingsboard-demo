@@ -268,6 +268,119 @@
           "row" : 0,
           "col" : 0,
           "id" : "e7f23a18-fbc3-f963-a04f-64a72a197c63"
+        },
+        "939b37e5-f0fa-2d31-02b8-e43884bfb29c" : {
+          "isSystemType" : true,
+          "bundleAlias" : "charts",
+          "typeAlias" : "basic_timeseries",
+          "type" : "timeseries",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 8,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "e328fd85-d8d0-17e0-88e1-23518a72b910",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "x",
+                "type" : "timeseries",
+                "label" : "x",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.2333808637753374
+              }, {
+                "name" : "y",
+                "type" : "timeseries",
+                "label" : "y",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.802691116458812
+              }, {
+                "name" : "z",
+                "type" : "timeseries",
+                "label" : "z",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.9154085054101306
+              } ],
+              "alarmFilterConfig" : {
+                "statusList" : [ "ACTIVE" ]
+              },
+              "latestDataKeys" : [ ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "shadowSize" : 4,
+              "fontColor" : "#545454",
+              "fontSize" : 10,
+              "xaxis" : {
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "yaxis" : {
+                "showLabels" : true,
+                "color" : "#545454"
+              },
+              "grid" : {
+                "color" : "#545454",
+                "tickColor" : "#DDDDDD",
+                "verticalLines" : true,
+                "horizontalLines" : true,
+                "outlineWidth" : 1
+              },
+              "legend" : {
+                "show" : true,
+                "position" : "nw",
+                "backgroundColor" : "#f0f0f0",
+                "backgroundOpacity" : 0.85,
+                "labelBoxBorderColor" : "rgba(1, 1, 1, 0.45)"
+              },
+              "decimals" : 1,
+              "stack" : false,
+              "tooltipIndividual" : false
+            },
+            "title" : "Pospeški x,y,z",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "enableDataExport" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "showLegend" : true,
+            "legendConfig" : {
+              "direction" : "column",
+              "position" : "bottom",
+              "sortDataKeys" : false,
+              "showMin" : false,
+              "showMax" : false,
+              "showAvg" : true,
+              "showTotal" : false,
+              "showLatest" : false
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "939b37e5-f0fa-2d31-02b8-e43884bfb29c"
         }
       },
       "states" : {
@@ -288,6 +401,12 @@
                   "sizeY" : 3,
                   "row" : 0,
                   "col" : 15
+                },
+                "939b37e5-f0fa-2d31-02b8-e43884bfb29c" : {
+                  "sizeX" : 8,
+                  "sizeY" : 5,
+                  "row" : 9,
+                  "col" : 0
                 }
               },
               "gridSettings" : {

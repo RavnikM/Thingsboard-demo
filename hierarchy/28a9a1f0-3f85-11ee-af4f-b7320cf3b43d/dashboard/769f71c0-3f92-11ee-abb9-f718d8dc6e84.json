@@ -1,0 +1,30 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "28a9a1f0-3f85-11ee-af4f-b7320cf3b43d"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "769f71c0-3f92-11ee-abb9-f718d8dc6e84"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Pregled - Stranka A",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "28a9a1f0-3f85-11ee-af4f-b7320cf3b43d"
+    },
+    "title" : "Pregled - Stranka A"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
